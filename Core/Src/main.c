@@ -114,7 +114,7 @@ int main(void)
   	htim1.Instance->CCR3 = rgb.b * 999;
   	hsv.h += 0.01;
   	if(hsv.h >= 1.0) hsv.h = 0;
-  	HAL_Delay(10);
+  	HAL_Delay(50);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
